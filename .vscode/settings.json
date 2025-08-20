@@ -1,0 +1,9 @@
+{
+    "workbench.preferredDarkColorTheme": "Default Dark Modern",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.preferredHighContrastColorTheme": "Default Dark Modern",
+    "workbench.preferredHighContrastLightColorTheme": "Default Dark Modern",
+    "workbench.preferredLightColorTheme": "Default Dark Modern",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "workbench.activityBar.iconClickBehavior": "toggle"
+}
