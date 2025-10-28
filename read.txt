@@ -1,0 +1,42 @@
+linkedlist -> 
+Q. 2 linked list have number in reverse add them and return linked list also reverse
+-> carry = sum / 10, (sum % 10)
+
+Q. 2 linked list which are sorted have to merge in sorted order
+-> at last when while loop end the list which is remaing have node who have already next, so you only need to 
+current.next = list1;
+
+
+Java Collections Framework ->
+│
+├── Collection (Interface)
+│   ├── List
+│   ├── Set
+│   └── Queue
+│
+├── Map (Interface)
+│   ├── HashMap
+│   ├── TreeMap
+│   └── LinkedHashMap
+│
+└── Collections (Utility class with static methods)
+-> import java.util.*; or import java.util.name;
+-> The Java Collections Framework consists of the Collection interface hierarchy (List, Set, Queue) and the Map
+ interface hierarchy, along with utility classes like Collections.
+
+-> Bucket Sort is a distribution sorting algorithm that distributes elements into several groups (called buckets).
+ Each bucket is then sorted individually (using another sorting algorithm like insertion sort, merge sort, or quicksort).
+ Finally, all sorted buckets are concatenated to get the final sorted array. 
+
+ function bucketSort(arr):
+    n = length(arr)
+    create n empty buckets
+
+    for each element x in arr:
+        index = int(n * x)   // bucket index
+        insert x into bucket[index]
+
+    for each bucket:
+        sort(bucket)  // insertion sort or other
+
+    return concatenate(buckets)

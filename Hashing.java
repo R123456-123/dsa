@@ -64,3 +64,14 @@ public class Hashing {
 //         }
 //     }
 // }
+
+
+/*{
+ 1. map.put(key, value), sometimes the value will be List, or any other data structure
+ 2. map.get(key), gives value at that key
+ 3. map.entrySet(), gives all key-value pairs
+ 4. for(Map.Entry<type,type> entry : map.entrySet()), for traversal on map
+ 5. {map.getKey(), map.getValue}, gives key and value, use simultaneously to add them in other data structure
+ 6. map.computeIfAbsent(key, k -> ds).add();
+ 7. keySet(), give set of all key
+} */

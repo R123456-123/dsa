@@ -3,12 +3,15 @@
 // Collection.binarySearch() java.util.Collections.binarySearch() method is a java.util.Collections class method 
 // that returns the position of an object in a sorted list.
 // Arrays.binarysearch() vs Collections.binarySearch() 
-// Arrays.binarysearch() works for arrays which can be of primitive data type also. Collections.binarysearch() works for objects Collections like ArrayList and LinkedList. 
+// Arrays.binarysearch() works for arrays which can be of primitive data type also. Collections.binarysearch() 
+// works for objects Collections like ArrayList and LinkedList. 
 // Important Points: 
 
 // If input list is not sorted, the results are undefined.
 // If there are duplicates, there is no guarantee which one will be found.
-// This method runs in log(n) time for a "random access" list like ArrayList. If the specified list does not implement the RandomAccess interface and is large, this method will do an iterator-based binary search that performs O(n) link traversals and O(log n) element comparisons.
+// This method runs in log(n) time for a "random access" list like ArrayList.
+// If the specified list does not implement the RandomAccess interface and is large, this method will do an
+// iterator-based binary search that performs O(n) link traversals and O(log n) element comparisons.
 
 // The Binary Search Algorithm can be implemented in the following two ways
 // Iterative Binary Search Algorithm && Recursive Binary Search Algorithm
