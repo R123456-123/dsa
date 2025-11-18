@@ -67,6 +67,11 @@ public class BinaryTree {
         System.out.print(root.val + " ");
     }
 
+    public int height(TreeNode root) {
+        if(root == null) return -1;
+         return Math.max(height(root.left), height(root.right)) + 1;
+    }
+
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
 
@@ -82,9 +87,10 @@ public class BinaryTree {
         System.out.print("Postorder traversal: ");
         tree.postorder(tree.root);
         System.out.println();;
+
+        System.out.println("Height of Tree: " + tree.height(tree.root));
+
     }
 }
-
-
 
 

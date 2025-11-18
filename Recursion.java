@@ -18,16 +18,16 @@ public class Recursion {
 // Step3 - Ensure the recursion terminates: Make sure that the recursive function eventually reaches the base case, and does not enter an infinite loop.
 // Step4 - Combine the solutions: Combine the solutions of the subproblems to solve the original problem.
 
-//A function is called direct recursive if it calls itself directly during its execution. In other words, 
+// A function is called direct recursive if it calls itself directly during its execution. In other words, 
 // the function makes a recursive call to itself within its own body.
 
-//An indirect recursive function is one that calls another function, and that other function, in turn, calls the
+// An indirect recursive function is one that calls another function, and that other function, in turn, calls the
 // original function either directly or through other functions. This creates a chain of recursive calls involving
 // multiple functions, as opposed to direct recursion, where a function calls itself.
 
-//Tail recursion is defined as a recursive function in which the recursive call is the last statement that is
+// Tail recursion is defined as a recursive function in which the recursive call is the last statement that is
 // executed by the function. So basically nothing is left to execute after the recursion call.
-//The tail recursive functions are considered better than non-tail recursive functions as tail-recursion can be optimized by the compiler. 
+// The tail recursive functions are considered better than non-tail recursive functions as tail-recursion can be optimized by the compiler. 
 // Compilers usually execute recursive procedures by using a stack. This stack consists of all the pertinent
 // information, including the parameter values, for each recursive call. When a procedure is called, its information 
 // is pushed onto a stack, and when the function terminates the information is popped out of the stack. Thus for the 
