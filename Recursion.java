@@ -1,7 +1,17 @@
 //recursion -> `a function that calls itself`
 public class Recursion {
-    
+    public static int power(int x, int n) {
+        // base case
+        if(n == 0) {
+            return 1;
+        } else {
+            // recursive case
+            return x * power(x, n - 1);
+        }
+    }
 }
+
+
 
 // The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called a recursive function.
 
