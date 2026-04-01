@@ -20,7 +20,9 @@ Java Collections Framework ->
 │   └── LinkedHashMap
 │
 └── Collections (Utility class with static methods)
+
 -> import java.util.*; or import java.util.name;
+
 -> The Java Collections Framework consists of the Collection interface hierarchy (List, Set, Queue) and the Map
  interface hierarchy, along with utility classes like Collections.
 
@@ -44,7 +46,7 @@ Java Collections Framework ->
 -> some points
 // byte short int long float double boolean char
 // wrapper class Integer, Character, Boolean, Float, Double
-// Arrays -> .sort .toString -. ArrayList<>()
+// Arrays -> .sort .toString -> ArrayList<>()
 // Strings -> .toCharArray
 
 // Collections framework have Collection interface (contains List, Set, Queue), Map interface and 

@@ -1,6 +1,6 @@
 -> A binary treee is a hierarchical structure where each node at most have left child or right child, not necessarily sorted, not necessarily complete
 -> root - topmost node, leaf - node with no children(if the root has no children then it is a leaf node), height - longest path from node to leaf (height of leaf = 0, empty tree is -1), depth - distance from root, subtree - tree formed by any node and its children, sibling - nodes with same parent
--> height - ©(2) - ©(1) - ©(1) -- ©(0) -- ©(0) -- ©(0) -- ©(0) (height of root = height of root)
+-> height - ©(2) - ©(1) - ©(1) -- ©(0) -- ©(0) -- ©(0) -- ©(0) (height of root = height of tree)
 -> Binary Tree Properties
 Maximum number of nodes at level i = 2^i
 Maximum number of nodes in a tree of height h = 2^(h+1) – 1
